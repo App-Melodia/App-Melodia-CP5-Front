@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Melodia - Sua Música, Sua Forma</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 
@@ -40,8 +42,40 @@
   </div>
 </section>
 
-  <section id="funcionalidades" class="py-20 px-6 bg-gray-900">
-  </section>
+<!-- Seção de Funcionalidades -->
+<section id="funcionalidades" class="py-20 px-6 bg-gray-900">
+  <div class="max-w-6xl mx-auto text-center">
+    <!-- Título da seção -->
+    <h2 class="text-4xl font-bold mb-12 text-white">Funcionalidades do Melodia</h2>
+    
+    <!-- Grid de funcionalidades com animação AOS -->
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-gray-800 p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+        <i class="fas fa-headphones text-pink-500 text-5xl mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-white">Qualidade de Som Superior</h3>
+        <p class="text-gray-300">Ouça suas músicas com áudio cristalino e imersivo, perfeito para qualquer estilo musical.</p>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="bg-gray-800 p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+        <i class="fas fa-list-ul text-pink-500 text-5xl mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-white">Playlists Personalizadas</h3>
+        <p class="text-gray-300">Crie playlists para cada momento do seu dia, organizando suas músicas favoritas.</p>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="bg-gray-800 p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+        <i class="fas fa-user-plus text-pink-500 text-5xl mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2 text-white">Descoberta de Novos Artistas</h3>
+        <p class="text-gray-300">Explore talentos emergentes e descubra músicas que você ainda não conhece.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
 
   <!-- quem for colocar depoimentos/avaliacao -->
   <section id="depoimentos" class="py-20 px-6">
